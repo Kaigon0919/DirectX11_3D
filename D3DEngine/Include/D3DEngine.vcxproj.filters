@@ -1,0 +1,1264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Core">
+      <UniqueIdentifier>{45314098-e991-469b-bece-a2dbed020463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Device">
+      <UniqueIdentifier>{7d88c499-53fe-4aec-9299-55c1fbc7e231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource">
+      <UniqueIdentifier>{a948a515-6f28-454c-8da6-d0ef1e386625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\01. Math">
+      <UniqueIdentifier>{850c666c-dc7a-4637-8e40-723c885a8c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\01. Mesh">
+      <UniqueIdentifier>{44378af2-8495-45a9-9c08-7bb7d6904d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Rendering">
+      <UniqueIdentifier>{47688d20-057e-41de-8930-e393b0f34120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Rendering\01. Shader">
+      <UniqueIdentifier>{08337bea-e977-4f48-bda8-8d8f1599b708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Rendering\01. Shader\01. HLSL">
+      <UniqueIdentifier>{87f8ddab-c66b-45ec-a78b-b71e84b36884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\02. Path">
+      <UniqueIdentifier>{d663ef08-ca27-41d6-9f92-23ecb5c0033e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Scene">
+      <UniqueIdentifier>{50451bb4-fb14-4764-a937-bb2d8bf006cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\03. Timer">
+      <UniqueIdentifier>{e3cc5a34-9d64-4dfa-bfa5-62085274d08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. GameObject">
+      <UniqueIdentifier>{366d63cf-93ce-489f-94c4-0ef75a7ee24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component">
+      <UniqueIdentifier>{27a3a884-5dcf-48e4-9f65-d3190dde53d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\01. Transform">
+      <UniqueIdentifier>{a27c5103-40ee-470a-95a5-835e8faa3f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\02. Renderer">
+      <UniqueIdentifier>{209c7849-b4b1-48df-add8-dfa0e02b0e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\03. UserComponent">
+      <UniqueIdentifier>{d132a415-cb88-4f65-8b07-0c7cafc060d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\04. Input">
+      <UniqueIdentifier>{dca4a151-8fb0-4226-bb5c-afb720d0768c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\04. Camera">
+      <UniqueIdentifier>{a0c7f74c-49ac-49e7-9c61-f06d0394dcad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\02. Texture">
+      <UniqueIdentifier>{37bca33f-371b-49e1-8ad5-b05f36b1709d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\05. Material">
+      <UniqueIdentifier>{855d5d3f-cd38-4c61-a5de-f970d01667c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\03. Sampler">
+      <UniqueIdentifier>{47ba4b30-a984-4a16-bf3e-e3d9fcceceb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Rendering\02. RenderState">
+      <UniqueIdentifier>{3e295424-174e-4008-ab7f-e9d11f1f11d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\06. Light">
+      <UniqueIdentifier>{9dd3c5eb-cca9-43fb-86f1-78cc7c84c8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Rendering\03. RenderTarget">
+      <UniqueIdentifier>{54cdcfef-83f2-4aac-a722-88dc37513802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\01. Mesh\01. FBXSDK">
+      <UniqueIdentifier>{96cc5df6-70ed-44e2-94ef-fa75fe8ae597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\07. Animation">
+      <UniqueIdentifier>{1ddcdf51-d468-46ef-be9e-f327bc86e783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\08. Collider">
+      <UniqueIdentifier>{7a96b508-33e1-428a-9594-c05ee275fa6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\05. CollisionManager">
+      <UniqueIdentifier>{16d4ea63-b4f7-4abd-a837-6892b0eabd2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\09. Particle">
+      <UniqueIdentifier>{497c62dd-a2ba-405b-9b3a-1a1346a8c8d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\10. LandScape">
+      <UniqueIdentifier>{4010923c-d2f5-43b0-b705-5f548aa540b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\11. Arm">
+      <UniqueIdentifier>{4ddc7907-b652-4805-967c-ccfd38ef4378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\06. Navigation">
+      <UniqueIdentifier>{14c0a34c-8fec-4302-b7e0-4490e5c0d15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\07. DataStruct">
+      <UniqueIdentifier>{f357694b-d948-464d-8a27-5223c43d1627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\13. UI">
+      <UniqueIdentifier>{229a372c-102b-4447-a888-3bc44e6a2ac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\12. Navigation">
+      <UniqueIdentifier>{abbb0fab-54e9-4696-82b9-72aeb4fa5598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\08. FontManager">
+      <UniqueIdentifier>{94556251-296a-4051-abc3-078585e4daaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\14. Text">
+      <UniqueIdentifier>{a3bf3a35-b5a3-4e56-bf52-ba92c05a000a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\09. SerialNumber">
+      <UniqueIdentifier>{b7189410-0d05-45c2-9fb8-cbd916788366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\15. Sound">
+      <UniqueIdentifier>{94c1e168-fa22-48c2-97cb-0602e061dac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\10. SoundManager">
+      <UniqueIdentifier>{139b6d22-02ca-47d2-b5fc-1c51d6cb8552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Component\16. Socket">
+      <UniqueIdentifier>{1179c182-c099-4455-a1bc-ee6ed523fef5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>01. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>02. Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>01. Core\01. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>01. Core\01. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>01. Core\01. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>01. Core\01. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineMath.h">
+      <Filter>01. Core\01. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\ResourcesManager.h">
+      <Filter>03. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Ref.h">
+      <Filter>01. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Mesh.h">
+      <Filter>03. Resource\01. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Shader.h">
+      <Filter>04. Rendering\01. Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ShaderManager.h">
+      <Filter>04. Rendering\01. Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RenderManager.h">
+      <Filter>04. Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>01. Core\02. Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>05. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneComponent.h">
+      <Filter>05. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneManager.h">
+      <Filter>05. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>01. Core\03. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>01. Core\03. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Layer.h">
+      <Filter>05. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>06. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Component.h">
+      <Filter>07. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Renderer.h">
+      <Filter>07. Component\02. Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Transform.h">
+      <Filter>07. Component\01. Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\UserComponent.h">
+      <Filter>07. Component\03. UserComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>01. Core\04. Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Camera.h">
+      <Filter>07. Component\04. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\DirectXTex.h">
+      <Filter>03. Resource\02. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Texture.h">
+      <Filter>03. Resource\02. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Material.h">
+      <Filter>07. Component\05. Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Sampler.h">
+      <Filter>03. Resource\03. Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\BlendState.h">
+      <Filter>04. Rendering\02. RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\DepthStencilState.h">
+      <Filter>04. Rendering\02. RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RasterizerState.h">
+      <Filter>04. Rendering\02. RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RenderState.h">
+      <Filter>04. Rendering\02. RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Light.h">
+      <Filter>07. Component\06. Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RenderTarget.h">
+      <Filter>04. Rendering\03. RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\FbxLoader.h">
+      <Filter>03. Resource\01. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\arch\fbxalloc.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\arch\fbxarch.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\arch\fbxdebug.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\arch\fbxnew.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\arch\fbxstdcompliant.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\arch\fbxtypes.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxarray.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxbitset.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxcharptrset.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxcontainerallocators.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxdynamicarray.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxfile.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxfolder.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxhashmap.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxintrusivelist.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxmap.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxmemorypool.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxmultimap.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxpair.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxredblacktree.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxset.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxstatus.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxstring.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxstringlist.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxtime.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxtimecode.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\base\fbxutils.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxclassid.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxconnectionpoint.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxdatatypes.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxemitter.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxevent.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxeventhandler.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxlistener.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxloadingstrategy.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxmanager.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxmodule.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxobject.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxperipheral.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxplugin.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxplugincontainer.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxproperty.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxpropertydef.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxpropertyhandle.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxpropertypage.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxpropertytypes.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxquery.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxqueryevent.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxscopedloadingdirectory.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxscopedloadingfilename.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxstream.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxsymbol.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxsystemunit.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\fbxxref.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\math\fbxaffinematrix.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\math\fbxdualquaternion.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\math\fbxmath.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\math\fbxmatrix.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\math\fbxquaternion.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\math\fbxtransforms.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\math\fbxvector2.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\math\fbxvector4.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\sync\fbxatomic.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\sync\fbxclock.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\sync\fbxsync.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\core\sync\fbxthread.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fbxsdk_def.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fbxsdk_nsbegin.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fbxsdk_nsend.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fbxsdk_version.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\collada\fbxcolladaanimationelement.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\collada\fbxcolladaelement.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\collada\fbxcolladaiostream.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\collada\fbxcolladanamespace.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\collada\fbxcolladatokens.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\collada\fbxcolladautils.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\collada\fbxreadercollada14.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\collada\fbxwritercollada14.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbx\fbxio.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbx\fbxreaderfbx5.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbx\fbxreaderfbx6.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbx\fbxreaderfbx7.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbx\fbxwriterfbx5.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbx\fbxwriterfbx6.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbx\fbxwriterfbx7.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxbase64coder.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxexporter.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxexternaldocreflistener.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxfiletokens.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxglobalcamerasettings.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxgloballightsettings.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxglobalsettings.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxgobo.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbximporter.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxiobase.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxiopluginregistry.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxiosettings.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxiosettingspath.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxprogress.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxreader.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxstatistics.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxstatisticsfbx.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\fileio\fbxwriter.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\animation\fbxanimcurve.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\animation\fbxanimcurvebase.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\animation\fbxanimcurvefilters.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\animation\fbxanimcurvenode.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\animation\fbxanimevalclassic.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\animation\fbxanimevalstate.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\animation\fbxanimevaluator.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\animation\fbxanimlayer.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\animation\fbxanimstack.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\animation\fbxanimutilities.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\constraint\fbxcharacter.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\constraint\fbxcharacternodename.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\constraint\fbxcharacterpose.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\constraint\fbxconstraint.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\constraint\fbxconstraintaim.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\constraint\fbxconstraintcustom.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\constraint\fbxconstraintparent.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\constraint\fbxconstraintposition.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\constraint\fbxconstraintrotation.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\constraint\fbxconstraintscale.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\constraint\fbxconstraintsinglechainik.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\constraint\fbxconstraintutils.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\constraint\fbxcontrolset.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\constraint\fbxhik2fbxcharacter.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxaudio.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxaudiolayer.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxaxissystem.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxcollection.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxcollectionexclusive.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxcontainer.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxcontainertemplate.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxdisplaylayer.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxdocument.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxdocumentinfo.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxenvironment.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxgroupname.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxlibrary.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxmediaclip.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxobjectfilter.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxobjectmetadata.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxobjectscontainer.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxpose.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxreference.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxscene.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxselectionnode.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxselectionset.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxtakeinfo.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxthumbnail.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\fbxvideo.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxblendshape.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxblendshapechannel.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxcache.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxcachedeffect.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxcamera.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxcamerastereo.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxcameraswitcher.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxcluster.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxdeformer.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxgenericnode.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxgeometry.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxgeometrybase.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxgeometryweightedmap.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxlayer.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxlayercontainer.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxlight.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxlimitsutilities.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxline.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxlodgroup.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxmarker.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxmesh.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxnode.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxnodeattribute.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxnull.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxnurbs.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxnurbscurve.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxnurbssurface.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxopticalreference.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxpatch.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxproceduralgeometry.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxshape.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxskeleton.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxskin.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxsubdeformer.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxsubdiv.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxtrimnurbssurface.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxvertexcachedeformer.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\geometry\fbxweightedmapping.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxbindingoperator.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxbindingsentryview.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxbindingtable.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxbindingtablebase.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxbindingtableentry.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxconstantentryview.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxentryview.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxfiletexture.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbximplementation.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbximplementationfilter.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbximplementationutils.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxlayeredtexture.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxlayerentryview.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxoperatorentryview.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxproceduraltexture.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxpropertyentryview.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxsemanticentryview.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxshadingconventions.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxsurfacelambert.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxsurfacematerial.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxsurfacephong.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\scene\shading\fbxtexture.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxclonemanager.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxdeformationsevaluator.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxembeddedfilesaccumulator.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxgeometryconverter.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxmanipulators.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxmaterialconverter.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxnamehandler.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxprocessor.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxprocessorshaderdependency.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxprocessorxref.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxprocessorxrefuserlib.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxrenamingstrategy.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxrenamingstrategybase.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxrenamingstrategyfbx5.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxrenamingstrategyfbx6.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxrenamingstrategyfbx7.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxrenamingstrategyutilities.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxrootnodeutility.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxscenecheckutility.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk\utils\fbxusernotification.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\fbxsdk.h">
+      <Filter>03. Resource\01. Mesh\01. FBXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Animation.h">
+      <Filter>07. Component\07. Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Collider.h">
+      <Filter>07. Component\08. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ColliderAABB.h">
+      <Filter>07. Component\08. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ColliderCapsule.h">
+      <Filter>07. Component\08. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ColliderOBB.h">
+      <Filter>07. Component\08. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ColliderPoint.h">
+      <Filter>07. Component\08. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ColliderRay.h">
+      <Filter>07. Component\08. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ColliderSphere.h">
+      <Filter>07. Component\08. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>01. Core\05. CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ParticleComponent.h">
+      <Filter>07. Component\09. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\AnimationFrame.h">
+      <Filter>07. Component\07. Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\LandScape.h">
+      <Filter>07. Component\10. LandScape</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Arm.h">
+      <Filter>07. Component\11. Arm</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigation\NavigationMesh.h">
+      <Filter>01. Core\06. Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigation\NavigationManager.h">
+      <Filter>01. Core\06. Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Navigation.h">
+      <Filter>07. Component\12. Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>01. Core\07. DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\UI.h">
+      <Filter>07. Component\13. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\UIButton.h">
+      <Filter>07. Component\13. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>01. Core\08. FontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialNumber.h">
+      <Filter>01. Core\09. SerialNumber</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Text.h">
+      <Filter>07. Component\14. Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Frustum.h">
+      <Filter>07. Component\04. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>01. Core\10. SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Sound.h">
+      <Filter>07. Component\15. Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\MeshSocket.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>01. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>02. Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>01. Core\01. Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>01. Core\01. Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>01. Core\01. Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>01. Core\01. Math</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineMath.cpp">
+      <Filter>01. Core\01. Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\ResourcesManager.cpp">
+      <Filter>03. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Ref.cpp">
+      <Filter>01. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\Mesh.cpp">
+      <Filter>03. Resource\01. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Shader.cpp">
+      <Filter>04. Rendering\01. Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\ShaderManager.cpp">
+      <Filter>04. Rendering\01. Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\RenderManager.cpp">
+      <Filter>04. Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>01. Core\02. Path</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene.cpp">
+      <Filter>05. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneComponent.cpp">
+      <Filter>05. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneManager.cpp">
+      <Filter>05. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>01. Core\03. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>01. Core\03. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Layer.cpp">
+      <Filter>05. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>06. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Component.cpp">
+      <Filter>07. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Renderer.cpp">
+      <Filter>07. Component\02. Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Transform.cpp">
+      <Filter>07. Component\01. Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\UserComponent.cpp">
+      <Filter>07. Component\03. UserComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>01. Core\04. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Camera.cpp">
+      <Filter>07. Component\04. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\Texture.cpp">
+      <Filter>03. Resource\02. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Material.cpp">
+      <Filter>07. Component\05. Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\Sampler.cpp">
+      <Filter>03. Resource\03. Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\BlendState.cpp">
+      <Filter>04. Rendering\02. RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\DepthStencilState.cpp">
+      <Filter>04. Rendering\02. RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\RasterizerState.cpp">
+      <Filter>04. Rendering\02. RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\RenderState.cpp">
+      <Filter>04. Rendering\02. RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Light.cpp">
+      <Filter>07. Component\06. Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\RenderTarget.cpp">
+      <Filter>04. Rendering\03. RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\FbxLoader.cpp">
+      <Filter>03. Resource\01. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Animation.cpp">
+      <Filter>07. Component\07. Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Collider.cpp">
+      <Filter>07. Component\08. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\ColliderAABB.cpp">
+      <Filter>07. Component\08. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\ColliderCapsule.cpp">
+      <Filter>07. Component\08. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\ColliderOBB.cpp">
+      <Filter>07. Component\08. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\ColliderPoint.cpp">
+      <Filter>07. Component\08. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\ColliderRay.cpp">
+      <Filter>07. Component\08. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\ColliderSphere.cpp">
+      <Filter>07. Component\08. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>01. Core\05. CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\ParticleComponent.cpp">
+      <Filter>07. Component\09. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\AnimationFrame.cpp">
+      <Filter>07. Component\07. Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\LandScape.cpp">
+      <Filter>07. Component\10. LandScape</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Arm.cpp">
+      <Filter>07. Component\11. Arm</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation\NavigationManager.cpp">
+      <Filter>01. Core\06. Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation\NavigationMesh.cpp">
+      <Filter>01. Core\06. Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Navigation.cpp">
+      <Filter>07. Component\12. Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\UI.cpp">
+      <Filter>07. Component\13. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\UIButton.cpp">
+      <Filter>07. Component\13. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>01. Core\08. FontManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialNumber.cpp">
+      <Filter>01. Core\09. SerialNumber</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Text.cpp">
+      <Filter>07. Component\14. Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Frustum.cpp">
+      <Filter>07. Component\04. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>01. Core\10. SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Sound.cpp">
+      <Filter>07. Component\15. Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\MeshSocket.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\Shader\Share.fx">
+      <Filter>04. Rendering\01. Shader\01. HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Standard.fx">
+      <Filter>04. Rendering\01. Shader\01. HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Debug.fx">
+      <Filter>04. Rendering\01. Shader\01. HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Light.fx">
+      <Filter>04. Rendering\01. Shader\01. HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Collider.fx">
+      <Filter>04. Rendering\01. Shader\01. HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\Particle.fx">
+      <Filter>04. Rendering\01. Shader\01. HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\LandScape.fx">
+      <Filter>04. Rendering\01. Shader\01. HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\UI.fx">
+      <Filter>04. Rendering\01. Shader\01. HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\DirectXTex.inl">
+      <Filter>03. Resource\02. Texture</Filter>
+    </None>
+  </ItemGroup>
+</Project>
